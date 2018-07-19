@@ -100,7 +100,7 @@ void OpenGLWindow::keyPressEvent(QKeyEvent *event)
 void OpenGLWindow::draw()
 {
     //showMessage("l");
-    //glClearColor(0.7,0.3f,2.0f,0.0f);
+    glClearColor(0.7,0.3f,2.0f,0.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     //glBegin(GL_QUADS);
 
