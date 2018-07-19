@@ -23,5 +23,5 @@ Test(const std::string&k) :str{k}
 };
 enum Types
 {
-    A,B,C
+    A,B,C,D,E,F
 };
